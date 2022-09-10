@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Encriptador | Alura ONE</title>
+</head>
+<body>
+    <header>
+        <img src="assets/Vector.png" alt="Alura logo">
+    </header>
+    <main>
+        <section class="input_area">
+            <textarea class="input_text" cols="40" rows="6" placeholder="Ingrese o pegue el texto aquí"></textarea>
+            <div class="buttons">
+                <button class="encript" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+                <button class="desencript" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+        <section class="output_area">
+            <textarea class="message" cols="18" rows="8"></textarea>
+            <button class="copy" onclick="btnCopy()">
+                Copiar
+            </button>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

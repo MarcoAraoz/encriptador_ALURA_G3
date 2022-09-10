@@ -1,0 +1,45 @@
+body {
+    background-color: #E5E5E5;
+}
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.input_text {
+    margin-top: 90px;
+}
+.message {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url('/assets/Muñeco.png');
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+}
+.copy {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.encript {
+    background-color: darkblue;
+    color: #E5E5E5;
+}
+.desencript {
+    margin-left: 15px;
+}
+.information {
+    font-size: 15px;
+}
